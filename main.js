@@ -1,0 +1,28 @@
+
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};   
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("fixx2").style.width = "170px";
+    document.getElementById("fixx2").style.height = "60px";
+  } else {
+    document.getElementById("fixx2").style.width = "1000px";
+    document.getElementById("fixx2").style.height = "300px";
+  }
+
+   if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    //  document.getElementById("script-logo").style.width = "170px";
+      document.getElementById("script-logo").style.height = "0px";
+      document.getElementById("script-logo1").style.height="0px";
+     
+    
+    } else {
+    // document.getElementById("script-logo").style.width = "1000px";
+      document.getElementById("script-logo").style.height = "50px";
+  document.getElementById("script-logo1").style.height = "40px";
+    
+    }
+}
+
+
+
