@@ -12,14 +12,14 @@ function scrollFunction() {
 
    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     //  document.getElementById("script-logo").style.width = "170px";
-      document.getElementById("script-logo").style.position = "relative";
-      document.getElementById("script-logo1").style.position="relative";
+      document.getElementById("script-logo").style.display = "none";
+      document.getElementById("script-logo1").style.display = "none";
 
     
     } else {
     // document.getElementById("script-logo").style.width = "1000px";
-      document.getElementById("script-logo").style.position = "fixed";
-  document.getElementById("script-logo1").style.position = "fixed";
+      document.getElementById("script-logo").style.display = "block";
+  document.getElementById("script-logo1").style.display = "block";
   
     }
 }
