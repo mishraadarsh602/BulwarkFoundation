@@ -12,15 +12,15 @@ function scrollFunction() {
 
    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     //  document.getElementById("script-logo").style.width = "170px";
-      document.getElementById("script-logo").style.height = "0px";
-      document.getElementById("script-logo1").style.height="0px";
-     
+      document.getElementById("script-logo").style.position = "relative";
+      document.getElementById("script-logo1").style.position="relative";
+
     
     } else {
     // document.getElementById("script-logo").style.width = "1000px";
-      document.getElementById("script-logo").style.height = "50px";
-  document.getElementById("script-logo1").style.height = "40px";
-    
+      document.getElementById("script-logo").style.position = "fixed";
+  document.getElementById("script-logo1").style.position = "fixed";
+  
     }
 }
 
