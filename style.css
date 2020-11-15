@@ -571,7 +571,7 @@ body{
     
 }
 #team1{
-    background: url(team1.jpg);
+    background: url("team1.jpg");
     background-position: center;
     background-size:cover;
 
