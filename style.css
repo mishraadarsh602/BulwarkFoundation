@@ -571,28 +571,28 @@ body{
     
 }
 #team1{
-    background: url(images/team/team1.jpg);
+    background-image: url("team1.jpg");
     background-position: center;
     background-size:cover;
 
 }
 #team2{
-    background: url(images/team/team2.jpeg);
+    background: url(team2.jpeg);
     background-position: center;
     background-size:cover;
 }
 #team3{
-    background: url(images/team/team3.jpg);
+    background: url(team3.jpg);
     background-position: center;
     background-size:cover;
 }
 #team4{
-    background: url(images/team/team4.jpg);
+    background: url(team4.jpg);
     background-position: center;
     background-size:cover;
 }
 #team5{
-    background: url(images/team/team5.jpg);
+    background: url(team5.jpg);
     background-position: center;
     background-size:cover;
 }
