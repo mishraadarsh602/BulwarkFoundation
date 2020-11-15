@@ -584,7 +584,7 @@ height:9em;
     
 }
 #team1{
-    background: url(team1.jpg);
+    background-image: url("team1.jpg");
     background-position: center;
     background-size:cover;
 
