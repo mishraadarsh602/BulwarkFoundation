@@ -553,23 +553,10 @@ body{
 .team-section{
     padding-top:2.5em;
     padding-bottom:5em;
-}
-.boxx1{
-  height:8em;
-  width:8em;
-   border: 3px solid rgb(57, 97, 72) ;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow:8px 8px 20px  rgba(0, 0, 0, 0.425) ;
 
 }
-.tp-box{
-    text-align:center;
-}
-.tp-box img{
-height:9em;
 
-}
+
 .tn-box{
     text-align:center;
     margin-top:.6em;
@@ -584,51 +571,61 @@ height:9em;
     
 }
 #team1{
-    background-image: url("team1.jpg");
+    background: url(images/team/team1.jpg);
     background-position: center;
     background-size:cover;
 
 }
 #team2{
-    background: url(team2.jpeg);
+    background: url(images/team/team2.jpeg);
     background-position: center;
     background-size:cover;
 }
 #team3{
-    background: url(team3.jpg);
+    background: url(images/team/team3.jpg);
     background-position: center;
     background-size:cover;
 }
 #team4{
-    background: url(team4.jpg);
+    background: url(images/team/team4.jpg);
     background-position: center;
     background-size:cover;
 }
 #team5{
-    background: url(team5.jpg);
+    background: url(images/team/team5.jpg);
     background-position: center;
     background-size:cover;
 }
 
 .member-section{
-    margin:3em;
+    margin:2em;
     margin-top:.4em;
+   
 }
+.boxx1{
+    height:9em;
+    width:9em;
+     border: 5px solid rgb(52, 80, 63) ;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow:8px 8px 20px  rgba(0, 0, 0, 0.425) ;
+  
+  }
 .boxx1 .socialss{
     position: relative;
-    bottom:-90px;
+    bottom:-99px;
     background-color:rgba(255, 255, 255, 0.678);
 width:100%;
 height:0px;
 text-align: center;
 overflow: hidden;
-transition:all 2s ease-out;
+transition: .3s ease-in-out;
 
 }
 
 .boxx1:hover .socialss{
     height:100%;
-    transition:all 2s ease-out;
+    transition: .4s ease-in-out;
   
      padding-bottom:;
 }
