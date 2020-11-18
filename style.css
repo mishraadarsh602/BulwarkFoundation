@@ -909,7 +909,7 @@ width:100%;
 .work-sectn{
     color:#c5d3ce;
     font-family: 'Montserrat', sans-serif;
-    border:1px solid red;
+  
     margin-top:7em;
     
 }
@@ -997,8 +997,15 @@ width:100%;
     }
  }
  @media screen and (max-width:376px){
-.about-with{
+.work-logo-container{
+    margin-bottom:-.6em;
+}
+    .about-with{
     font-size:.8em;
     word-spacing:.3em;
+    line-height:1.8em;
 } 
+.join-team{
+    font-size:1.3em;
+}
 }
