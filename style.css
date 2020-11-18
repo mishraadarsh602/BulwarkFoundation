@@ -810,28 +810,28 @@ width:130%;
     
 }
 #team1{
-    background: url(images/team/team1.jpg);
+    background: url("team1.jpg");
     background-position: center;
     background-size:cover;
 
 }
 #team2{
-    background: url(images/team/team2.jpeg);
+    background: url(team2.jpeg);
     background-position: center;
     background-size:cover;
 }
 #team3{
-    background: url(images/team/team3.jpg);
+    background: url(team3.jpg);
     background-position: center;
     background-size:cover;
 }
 #team4{
-    background: url(images/team/team4.jpg);
+    background: url(team4.jpg);
     background-position: center;
     background-size:cover;
 }
 #team5{
-    background: url(images/team/team5.jpg);
+    background: url(team5.jpg);
     background-position: center;
     background-size:cover;
 }
@@ -911,37 +911,30 @@ width:100%;
     font-family: 'Montserrat', sans-serif;
   
     margin-top:7em;
+    margin-bottom:10em;
     
 }
 .work-logo-container{
   
     
 }
-.about-with img{
- /* font-size:1em;*/
-   width:90%;
-   height:auto;
-    
-}
-.about-with2 img{
-    /* font-size:1em;*/
-      width:70%;
-      height:auto;
-       
-   }
+
 #wp-3 img{
     margin-top:1em;
  width:50%;
  
 }
 
-
+.about-with{
+    word-spacing:.3em;
+    line-height:1.6em;
+}
 .second-works {
   line-height:1.2em;
 }
-.second-works .join-team img{
- width:60%;
- }
+.join-team{
+    font-size:1.3em;
+}
 .current{
     color:#2680eb;
     font-size: .8em;
@@ -1003,9 +996,13 @@ width:100%;
     .about-with{
     font-size:.8em;
     word-spacing:.3em;
-    line-height:1.8em;
+    line-height:1.9em;
 } 
 .join-team{
     font-size:1.3em;
+}
+.work-sectn{
+   margin-top:5em;
+    margin-bottom:4em;
 }
 }
