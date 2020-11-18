@@ -690,6 +690,7 @@ width:130%;
         }
  .letter-input input{
   padding-bottom:.8em;
+
     }
  .letter-input form .form-row button img{
     color:black;
@@ -903,14 +904,17 @@ width:100%;
 .work-header{
     
 }
-.work-logo-container{
-  
-    margin-top:7em;
-}
+
 
 .work-sectn{
     color:#c5d3ce;
     font-family: 'Montserrat', sans-serif;
+    border:1px solid red;
+    margin-top:7em;
+    
+}
+.work-logo-container{
+  
     
 }
 .about-with img{
@@ -951,6 +955,11 @@ width:100%;
 }
 #contct a{
     color:#707070;
+    text-decoration: underline;
+}
+#contct a:hover{
+    color:#cac2c2;
+
 }
 #curnt{
     color:rgba(230, 236, 230, 0.87);
@@ -987,3 +996,9 @@ width:100%;
        width:90%;
     }
  }
+ @media screen and (max-width:376px){
+.about-with{
+    font-size:.9em;
+    word-spacing:.3em;
+} 
+}
