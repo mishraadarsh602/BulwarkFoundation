@@ -810,28 +810,28 @@ width:130%;
     
 }
 #team1{
-    background: url("team1.jpg");
+    background: url(images/team/team1.jpg);
     background-position: center;
     background-size:cover;
 
 }
 #team2{
-    background: url(team2.jpeg);
+    background: url(images/team/team2.jpeg);
     background-position: center;
     background-size:cover;
 }
 #team3{
-    background: url(team3.jpg);
+    background: url(images/team/team3.jpg);
     background-position: center;
     background-size:cover;
 }
 #team4{
-    background: url(team4.jpg);
+    background: url(images/team/team4.jpg);
     background-position: center;
     background-size:cover;
 }
 #team5{
-    background: url(team5.jpg);
+    background: url(images/team/team5.jpg);
     background-position: center;
     background-size:cover;
 }
@@ -926,8 +926,8 @@ width:100%;
 }
 
 .about-with{
-    word-spacing:.3em;
-    line-height:1.6em;
+    
+  
 }
 .second-works {
   line-height:1.2em;
