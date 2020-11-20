@@ -316,6 +316,9 @@ color:rgb(124, 148, 116);
 
 /*-----------------------footer part-----------------------------------*/
  
+.middle-box{
+    padding:1em 4em;
+}
 .sitenamee{
     border-right:3px solid rgba(255, 255, 255, 0.377);
     border-radius:1px;
@@ -393,10 +396,10 @@ color:rgb(124, 148, 116);
    text-align: left;
  }
 .footer-work-partner{
-    margin:5px;
-    margin-top: 1.3em;
-
-
+    overflow: hidden;
+   width:90%; 
+   margin:1em auto;
+ 
 }
 .footer-work1{
  
@@ -418,57 +421,52 @@ color:rgb(124, 148, 116);
    
 }
 .work2 img{
-   margin-left:-16px;
-    height:40px;
-    width:50px;
+   
+ 
+    width:35px;
+   
+  
 }
 .work3{
     float:right;
     border-bottom:3px solid rgb(191, 214, 183);
 }
 .footer-partner2{
-   
+ 
     font-size: 1.2em;
     float:right;
    
 }
-
+.policy-container{
+    overflow: hidden;
+    margin-top:-2em;
+}
 .policy {
    overflow: hidden;
-    display:block; 
-    float:left;
-    width:100%;
-    margin-top:0 auto;
+    display:inline; 
+    float:left; 
     text-align: center;
  text-align: center;
-margin-left:3%;
-  
+padding-left:;
+text-align: center;
+margin:0 auto; 
 }
-
-
 .policy li{
     list-style-type: none;
     float:left;
-    text-align: center;
-    
-   
-}
-.policy li:first-child{
-
-    
+    text-align: center;  
 }
 .policy  li a{
     color:rgb(223, 236, 219);
   font-size:.7em ;
    border-right:3px solid rgba(34, 51, 29, 0.623);
-  
   padding:0 10px;
   text-decoration: none;
 
 }
 .reserved{
     font-size:.8em;
-    margin-top:4em;
+    margin:1em auto;
 }
 .social{
     margin:40px;
@@ -509,7 +507,16 @@ font-size:.7em;
      }
 }  
 @media screen and (max-width:1132px){
-   .get-newsletter{
+    .middle-box{
+      
+        padding:1em 2em;
+    }
+    .letter-input  .right-arrow2{
+    
+      
+    }
+   
+    .get-newsletter{
        font-size:.9em;
    }
     .letter-input input::placeholder{
@@ -518,7 +525,7 @@ font-size:.7em;
         margin-bottom:.9em;
   }  
   .policy{
-         margin-left:1em;
+         margin: 0 auto;
            }   
     .policy  li a{
    
@@ -536,9 +543,8 @@ font-size:.7em;
             height:26px;
              }
              .policy{
-                 margin:0;
-            
-             }
+                margin: 0 auto;
+                  } 
              .policy  li a{
     
                 font-size:.1em;
@@ -547,8 +553,7 @@ font-size:.7em;
              }
              .letter-input input::placeholder{
                 font-size:.7em;
-               
-               
+ 
                    } 
  }
  @media screen and (max-width:951px){
@@ -564,6 +569,9 @@ font-size:.7em;
  .letter-input input::placeholder{
  font-size:.7em;
  } 
+ .policy{
+    margin: 0 auto;
+      } 
 }
 @media screen and (max-width:791px){
  .footer-indexx{
@@ -576,9 +584,9 @@ font-size:.7em;
 .social li img{
   height:20px;
 }
- .policy{
- margin-left:1em;
-}
+.policy{
+    margin: 0 auto;
+      } 
 .policy  li a{
  font-size:.5em;
  padding:0 .1em;
@@ -591,10 +599,10 @@ padding-bottom:.8em;
  }
 .letter-input form .form-row button img{
  color:black;
-height:27px;
+height:26px;
  margin-bottom:.8em;
 width:40px;
-margin-left:-.5em;
+margin-left:-.6em;
 }
 .letter-input input::placeholder{
 font-size:.5em;
@@ -631,9 +639,24 @@ font-size:.4em;
       .letter-input input::placeholder{
         font-size:.7em;
      
-           }          
+           }  
+           .letter-input form .form-row button img{
+        
+           height:26px;
+            margin-bottom:.8em;
+           width:40px;
+           margin-left:-.6em;
+           }        
 }
 @media screen and (max-width:620px){
+    .middle-box{
+        padding:1em 1em;
+    }
+    .footer-work-partner{
+          width:80%;
+          margin:0 auto;
+       margin-right:6em;
+       } 
     .social{
         width:150px;
         
@@ -644,10 +667,16 @@ font-size:.4em;
          }
          .reserved{
             font-size:.6em;
-          }     
+          }    
+          .policy{
+              margin:0 auto;
+          } 
 }
 @media screen and (max-width:415px){
-.reserved{
+    .footer-work-partner{
+   margin-top: 1em;
+    }
+    .reserved{
   font-size:.5em;
 }
   #wp-3{
@@ -673,7 +702,8 @@ font-size:.4em;
  height:24px;
    }  
  .get-newsletter{
-   font-size:.7em;
+   font-size:.8em;
+  
   } 
 .sitenamee{
 width:130%;
@@ -694,10 +724,16 @@ width:130%;
     }
  .letter-input form .form-row button img{
     color:black;
-    height:31px;
+    height:41px;
     margin-bottom:.5em;
     width:40px;
-    margin-left:-.5em;
+    margin-left:-.6em;
+    border-top-right-radius:11px ;
+    border-bottom-right-radius:17px ;
+    overflow:auto;
+    position:relative;
+    top:-.3em;
+    left:-.013em;
  }
 .letter-input input::placeholder{
   font-size:.6em;
@@ -706,11 +742,11 @@ width:130%;
  
      }  
      .policy{
-         margin-left:1em;
+         margin:0 auto ;
      }  
      .policy  li a{
         font-size:.4em;
-        padding:0 .7em;     
+        padding:0 2em;     
        } 
 }
 
@@ -718,6 +754,7 @@ width:130%;
    .get-newsletter{
        margin-top:1em;
        font-size:.8em;
+       width:;
    }
     .social{
         width:120px;  
@@ -737,25 +774,26 @@ width:130%;
   
         border-top-right-radius:5px ;
         border-bottom-right-radius:8px ;
-        margin-left:2em;
-       
+        margin-left:-.8em;
+      
       
     }
      .footer-work-partner{
     font-size:.6em;
+    width:90%;
  
      }
      .footer-work-partner img{
         height:30px;
          }
          .policy{
-            padding-left:.3em;
-     
+          
+        padding-left:1.3em;
             width:100%;
          }
         
          .copyright-footer2{
-            font-size:1em;
+            font-size:1.5em;
            word-spacing:.5em;
         }
         .letter-input input::placeholder{
@@ -764,7 +802,7 @@ width:130%;
                }
                .policy  li a{
                 font-size:.4em;
-                padding:0 .5em; 
+                padding:0 1.3em; 
                    
                } 
 }
@@ -779,15 +817,18 @@ width:130%;
     margin-left:3%;
 }
 
-
+.our-teamm-logo{
+    margin:0 auto;
+    display:inline-block;
+}
 .team-section{
     padding-top:2.5em;
-    margin-top:4em;
- 
+    margin:4em auto;
 }
 
 .row1{
-
+margin:1em auto;
+width:auto;
  
 }
 .tn-box{
@@ -804,7 +845,7 @@ width:130%;
     
 }
 #team1{
-    background: url(images/team/team1.jpg);
+    background: url("team1.jpg");
     background-position: center;
     background-size:cover;
 
@@ -864,7 +905,6 @@ transition: .3s ease-in-out;
 }
 
 .boxx1 .socialss a{
-
   padding:4px;
   color:rgb(51, 75, 60) ;
   font-size:1.7em;
@@ -883,27 +923,18 @@ color:rgb(23, 39, 29) ;
     }
   @media screen and (max-width:586px){
  .our-teamm-logo img{
-     width:30%;
-      margin-left:4%;
+     width:70%;
+      margin-left:6%;
     }  
     .member-section{
-       margin:2%;
+       margin:1em auto;
        }    
  }
 @media screen and (max-width:386px){
  .team-section{
      margin-top:4em;
      
-} 
-.our-teamm-logo img{
-  width:40%;
-   margin-left:4%;
- }
-.member-section{
-  margin:1em;
-
- } 
-   
+}   
 }
 
 /*----------------------------our partner page going to start -------------*/
@@ -927,6 +958,10 @@ width:100%;
   margin:.7em;
 }
 @media screen and (max-width:578px){
+    .partner-boxxx{
+
+margin-bottom:10.3em;
+    } 
     .logo-partner-box img{
    margin:2em 0em 0em 1em;
     }
@@ -935,10 +970,8 @@ width:100%;
         width:80%;
         margin:1em auto;
     }
-    .partner-boxxx{
-      
-        margin-bottom:5.2em;
-    }
+  
+  
 }
 
 /*---------------work with us page going to start---------------*/
